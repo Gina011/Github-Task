@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STSTStudentCourse" tests="14" time="6.548">
+  <testsuite name="Get All Todo Entries / Get All Todo Entries" id="56fa6e74-ef97-4690-a71f-aaf756c4695d" timestamp="2023-11-26T16:19:32.758Z" tests="3" failures="0" errors="0" time="0.869">
+    <testcase name="Status code is 200" time="0.869" classname="StstStudentCourse"/>
+    <testcase name="Body matches string" time="0.869" classname="StstStudentCourse"/>
+    <testcase name="Status code name has string" time="0.869" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get All Entries / Get All Entries" id="dc36e54b-f696-4355-ab99-237e4b29737b" timestamp="2023-11-26T16:19:32.758Z" tests="0" failures="0" errors="0" time="0.278"/>
+  <testsuite name="Get entry per ID / Get entry per ID - Valid ID" id="8ee9ca1a-e10d-40b4-a62d-8d5eb75c63a4" timestamp="2023-11-26T16:19:32.758Z" tests="0" failures="0" errors="0" time="0.284"/>
+  <testsuite name="Get entry per ID / Get entry per ID - Invalid ID(params not using TODO ID)" id="fc867258-5aa9-4e73-be47-62c1f23a8e97" timestamp="2023-11-26T16:19:32.758Z" tests="0" failures="0" errors="0" time="0.314"/>
+  <testsuite name="Get Books / Get All Books" id="46fe6d50-c578-46d8-8d14-a9c76c0fb9ed" timestamp="2023-11-26T16:19:32.758Z" tests="1" failures="0" errors="0" time="1.272">
+    <testcase name="Status code is 200" time="1.272" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get Books / Get Books by ID" id="45720387-3b6b-4de4-a29e-2e6c7f5c64c0" timestamp="2023-11-26T16:19:32.758Z" tests="2" failures="0" errors="0" time="0.286">
+    <testcase name="Status code is 200" time="0.286" classname="StstStudentCourse"/>
+    <testcase name="Response body has id property" time="0.286" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Get Books / Get Books by Type" id="16ac0ef6-3a63-4757-8612-d4728ba32596" timestamp="2023-11-26T16:19:32.758Z" tests="1" failures="0" errors="0" time="0.261">
+    <testcase name="Status code is 200" time="0.261" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Place a book order / Place a book order - using book ID" id="bb19542c-9d15-46ce-872e-98aa3184dc33" timestamp="2023-11-26T16:19:32.758Z" tests="0" failures="0" errors="0" time="0.520"/>
+  <testsuite name="Get an order / Get all orders" id="fa195ada-2949-4a14-aff6-c2e99e0f4349" timestamp="2023-11-26T16:19:32.758Z" tests="0" failures="0" errors="0" time="0.553"/>
+  <testsuite name="Get an order / Get an order - using orderID" id="a5493c01-b329-48e2-99ac-3ed0ddfe23af" timestamp="2023-11-26T16:19:32.758Z" tests="0" failures="0" errors="0" time="0.265"/>
+  <testsuite name="Update an order / Update an order" id="65ab94f6-fa08-4de3-b7cc-0de409479c2b" timestamp="2023-11-26T16:19:32.758Z" tests="0" failures="0" errors="0" time="0.366"/>
+  <testsuite name="Delete an order / Delete an order" id="cdfd505d-e74b-4c7a-bde8-8a7a8eb943a1" timestamp="2023-11-26T16:19:32.758Z" tests="2" failures="0" errors="0" time="0.592">
+    <testcase name="Status code is 204" time="0.592" classname="StstStudentCourse"/>
+    <testcase name="Status code name has string" time="0.592" classname="StstStudentCourse"/>
+  </testsuite>
+  <testsuite name="Register API Client" id="4cfb3465-dce0-4f29-b5af-68adabfbff92" timestamp="2023-11-26T16:19:32.758Z" tests="0" failures="0" errors="0" time="0.404"/>
+  <testsuite name="Get API Status" id="d2bc3989-1f4c-4e6e-ad33-c3e207a93816" timestamp="2023-11-26T16:19:32.758Z" tests="0" failures="0" errors="0" time="0.284"/>
+</testsuites>
